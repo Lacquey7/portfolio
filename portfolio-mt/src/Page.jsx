@@ -2,11 +2,13 @@ import Header from "./components/Header.jsx";
 import Projet from "./components/Projet.jsx";
 import Techno from "./components/Techno.jsx";
 import Contact from "./components/Contact.jsx";
+import Desc from "./components/Desc.jsx";
 
 function Page() {
     return (
         <div>
            <Header/>
+            <Desc/>
             <main className="container mx-auto px-6 py-8">
                 {/* Section Projets */}
                 <section className="mb-12">
