@@ -19,9 +19,9 @@ const fakeProjects = [
     {
         id: 2,
         title: "Portfolio",
-        description: "Développement d’un portfolio en React avec Tailwind CSS pour un design moderne et responsive. L’application est conteneurisée avec Docker et déployée sur un VPS sous forme d’image Docker, garantissant une mise en production optimisée et sécurisée.",
+        description: "Développement d’un portfolio en React avec Tailwind CSS pour un design moderne et responsive. L’application est générée sous forme de site statique et déployée sur GitHub Pages, garantissant une mise en production rapide et accessible.",
         status: "Fini",
-        techno: ["REACT", "TAILWIND CSS", "DOCKER","VPS LINUX"],
+        techno: ["REACT", "TAILWIND CSS", "GITHUB PAGE"],
         demo: "",
         github: ""
     },
