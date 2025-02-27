@@ -7,7 +7,7 @@ function Header() {
                     <div className="avatar">
                         <div className="w-24 rounded-full">
                             <img
-                                src="/portfolio/mohamed_Tliche.png"
+                                src="/mohamed_Tliche.png"
                                 className="object-cover w-full h-full scale-150 translate-x-1.5 translate-y-2.5"
                                 alt="Photo de profil"
                             />
