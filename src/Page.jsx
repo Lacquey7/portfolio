@@ -8,6 +8,33 @@ import Apropros from "./components/Apropros.jsx";
 // Données simulées pour les projets
 const fakeProjects = [
     {
+        id: 5,
+        title: "Social Network",
+        description: "Social Network est un réseau social inspiré de X, développé avec Go, NextJS et SQLite. Il permet aux utilisateurs de créer un profil, publier des posts, suivre d’autres utilisateurs, rejoindre des groupes et discuter en temps réel grâce aux WebSockets. L’authentification est sécurisée avec sessions et cookies, et les images sont gérées efficacement. Le projet est dockerisé avec une séparation backend/frontend. Un système de notifications informe les utilisateurs des nouvelles interactions.",
+        status: "En cours",
+        techno: ["NEXTJS", "JAVASCRIPT", "CSS", "GO", "SQLITE3", "DOCKER", "WEBSOCKET", "GITHUB"],
+        demo: "",
+        github: ""
+    },
+    {
+        id: 4,
+        title: "GraphQL Profile",
+        description: "Ce projet consiste à créer une interface utilisateur permettant aux étudiants de Zone01 d'afficher leurs informations scolaires en utilisant GraphQL. Grâce à une intégration avec l'API GraphQL fournie par la plateforme, l'utilisateur peut consulter ses statistiques telles que le nombre d'XP gagnés, les audits réalisés, les projets validés et échoués, ainsi que d'autres données liées à son parcours. L'interface propose également une authentification sécurisée via JWT et permet de générer des graphiques interactifs en SVG pour visualiser les performances.",
+        status: "Fini",
+        techno: ["REACTJS","JAVASCRIPT","CSS","GRAPHQL","SVG"],
+        demo: "",
+        github: ""
+    },
+    {
+        id: 3,
+        title: "Real Time Forum",
+        description: "RealtimeForum est un forum interactif en temps réel développé avec Go, JavaScript et WebSockets. Il s’agit d’une Single Page Application (SPA) où tout le contenu est chargé dynamiquement sans rechargement de page. Les interactions (navigation, affichage des posts, commentaires, messagerie privée) sont mises à jour en temps réel grâce aux WebSockets, offrant une expérience fluide et rapide.",
+        status: "Fini",
+        techno: ["JAVASCRIPT", "CSS", "HTML5", "GOLANG", "SQLITE"],
+        demo: "",
+        github: ""
+    },
+    {
         id: 1,
         title: "Make Your Game",
         description: "Make Your Game est un jeu en JavaScript pur (sans Canvas ni frameworks), inspiré de BomberMan. Il garantit une animation fluide à 60 FPS, un gameplay optimisé via le DOM et une gestion précise des performances. Le jeu est déployé via Vercel pour une accessibilité rapide et fluide en ligne",
@@ -21,16 +48,7 @@ const fakeProjects = [
         title: "Portfolio",
         description: "Développement d’un portfolio en React avec Tailwind CSS pour un design moderne et responsive. L’application est générée sous forme de site statique et déployée sur GitHub Pages, garantissant une mise en production rapide et accessible.",
         status: "Fini",
-        techno: ["REACT", "TAILWIND CSS", "GITHUB PAGE"],
-        demo: "",
-        github: ""
-    },
-    {
-        id: 3,
-        title: "Real Time Forum",
-        description: "RealtimeForum est un forum interactif en temps réel développé avec Go, JavaScript et WebSockets. Il s’agit d’une Single Page Application (SPA) où tout le contenu est chargé dynamiquement sans rechargement de page. Les interactions (navigation, affichage des posts, commentaires, messagerie privée) sont mises à jour en temps réel grâce aux WebSockets, offrant une expérience fluide et rapide.",
-        status: "En cours",
-        techno: ["Vanilla JS", "CSS", "HTML5", "GOLANG", "SQLITE"],
+        techno: ["REACT","JAVASCRIPT", "TAILWIND CSS", "GITHUB PAGE"],
         demo: "",
         github: ""
     }
